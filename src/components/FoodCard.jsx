@@ -24,7 +24,7 @@ const FoodCard = ({ food }) => {
         </h2>
         <p className='font-medium text-xl'>Price : {price}</p>
         <div className='space-x-4'>
-            <button className="btn btn-primary">Add to Cart</button>
+            <button className="btn btn-primary">Add to as Carts</button>
             <CardButtons id={id} ></CardButtons>
         </div>
         <div className="justify-between card-actions">

@@ -8,6 +8,10 @@ const Posts = ({postsResponse}) => {
     return (
         <div>
             <h2 className="text-4xl">Posts : {posts.length}</h2>
+            <p>
+                hello
+                
+            </p>
         </div>
     );
 };
